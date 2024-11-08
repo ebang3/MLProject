@@ -64,7 +64,7 @@ handle_classification_task(
     train_label_file="training_data\TrainLabel1.txt",
     test_data_file="testing_data\TestData1.txt",
     output_directory="output_files",
-    output_filename="TestResult1.txt"
+    output_filename="TestResultNB1.txt"
 )
 
 # Dataset 2
@@ -73,7 +73,7 @@ handle_classification_task(
     train_label_file="training_data\TrainLabel2.txt",
     test_data_file="testing_data\TestData2.txt",
     output_directory="output_files",
-    output_filename="TestResult2.txt"
+    output_filename="TestResultNB2.txt"
 )
 
 # Dataset 3
@@ -82,7 +82,7 @@ handle_classification_task(
     train_label_file="training_data\TrainLabel3.txt",
     test_data_file="testing_data\TestData3.txt",
     output_directory="output_files",
-    output_filename="TestResult3.txt"
+    output_filename="TestResultNB3.txt"
 )
 
 # Dataset 4
@@ -91,7 +91,7 @@ handle_classification_task(
     train_label_file="training_data\TrainLabel4.txt",
     test_data_file="testing_data\TestData4.txt",
     output_directory="output_files",
-    output_filename="TestResult4.txt"
+    output_filename="TestResultNB4.txt"
 )
 
 # Dataset 5
@@ -100,7 +100,7 @@ handle_classification_task(
     train_label_file="training_data\TrainLabel5.txt",
     test_data_file="testing_data\TestData5.txt",
     output_directory="output_files",
-    output_filename="TestResult5.txt"
+    output_filename="TestResultNB5.txt"
 )
 
 # Dataset 6
@@ -109,5 +109,5 @@ handle_classification_task(
     train_label_file="training_data\TrainLabel6.txt",
     test_data_file="testing_data\TestData6.txt",
     output_directory="output_files",
-    output_filename="TestResult6.txt"
+    output_filename="TestResultNB6.txt"
 )
