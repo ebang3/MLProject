@@ -5,19 +5,13 @@ from sklearn.impute import KNNImputer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
-# Function to load the dataset from .txt files
 def load_data(train_data_file, train_label_file, test_data_file, test_label_file=None):
     train_data = pd.read_csv(train_data_file, sep=r'[,\s;]+', header=None, engine='python')
     train_labels = pd.read_csv(train_label_file, sep=r'[,\s;]+', header=None, engine='python').values.ravel()
     test_data = pd.read_csv(test_data_file, sep=r'[,\s;]+', header=None, engine='python')
     
-    test_labels = None
-    if test_label_file:
-        test_labels = pd.read_csv(test_label_file, sep=r'[,\s;]+', header=None, engine='python').values.ravel()
-    
-    return train_data, train_labels, test_data, test_labels
+    return train_data, train_labels, test_data
 
-# Imputation function
 def impute_missing_values(train_data, test_data):
     train_data.replace(1.00000000000000e+99, np.nan, inplace=True)
     test_data.replace(1.00000000000000e+99, np.nan, inplace=True)
