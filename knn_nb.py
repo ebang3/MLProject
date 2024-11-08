@@ -63,8 +63,8 @@ handle_classification_task(
     train_data_file="training_data\TrainData1.txt",
     train_label_file="training_data\TrainLabel1.txt",
     test_data_file="testing_data\TestData1.txt",
-    output_directory="output_files",
-    output_filename="TestResultNB1.txt"
+    output_directory="output_files/nb_predictions",
+    output_filename="DeninaChungBangResult1.txt"
 )
 
 # Dataset 2
@@ -72,8 +72,8 @@ handle_classification_task(
     train_data_file="training_data\TrainData2.txt",
     train_label_file="training_data\TrainLabel2.txt",
     test_data_file="testing_data\TestData2.txt",
-    output_directory="output_files",
-    output_filename="TestResultNB2.txt"
+    output_directory="output_files/nb_predictions",
+    output_filename="DeninaChungBangResult2.txt"
 )
 
 # Dataset 3
@@ -81,8 +81,8 @@ handle_classification_task(
     train_data_file="training_data\TrainData3.txt",
     train_label_file="training_data\TrainLabel3.txt",
     test_data_file="testing_data\TestData3.txt",
-    output_directory="output_files",
-    output_filename="TestResultNB3.txt"
+    output_directory="output_files/nb_predictions",
+    output_filename="DeninaChungBangResult3.txt"
 )
 
 # Dataset 4
@@ -90,8 +90,8 @@ handle_classification_task(
     train_data_file="training_data\TrainData4.txt",
     train_label_file="training_data\TrainLabel4.txt",
     test_data_file="testing_data\TestData4.txt",
-    output_directory="output_files",
-    output_filename="TestResultNB4.txt"
+    output_directory="output_files/nb_predictions",
+    output_filename="DeninaChungBangResult4.txt"
 )
 
 # Dataset 5
@@ -99,8 +99,8 @@ handle_classification_task(
     train_data_file="training_data\TrainData5.txt",
     train_label_file="training_data\TrainLabel5.txt",
     test_data_file="testing_data\TestData5.txt",
-    output_directory="output_files",
-    output_filename="TestResultNB5.txt"
+    output_directory="output_files/nb_predictions",
+    output_filename="DeninaChungBangResult5.txt"
 )
 
 # Dataset 6
@@ -108,6 +108,6 @@ handle_classification_task(
     train_data_file="training_data\TrainData6.txt",
     train_label_file="training_data\TrainLabel6.txt",
     test_data_file="testing_data\TestData6.txt",
-    output_directory="output_files",
-    output_filename="TestResultNB6.txt"
+    output_directory="output_files/nb_predictions",
+    output_filename="DeninaChungBangResult6.txt"
 )

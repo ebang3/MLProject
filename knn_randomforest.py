@@ -1,8 +1,8 @@
 import os
 import pandas as pd
 import numpy as np
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.impute import KNNImputer
-from sklearn.naive_bayes import GaussianNB
 
 # Function to load the dataset from .txt files
 def load_data(train_data_file, train_label_file, test_data_file):
@@ -25,7 +25,7 @@ def impute_missing_values(train_data, test_data):
 
 # Train classifier using Naive Bayes
 def train_classifier(train_data, train_labels):
-    classifier = GaussianNB()  # Naive Bayes classifier
+    classifier = RandomForestClassifier(n_estimators=100, random_state=42)
     classifier.fit(train_data, train_labels)
     return classifier
 
@@ -64,6 +64,6 @@ for i in range(1, 7):
         train_data_file=f"training_data/TrainData{i}.txt",
         train_label_file=f"training_data/TrainLabel{i}.txt",
         test_data_file=f"testing_data/TestData{i}.txt",
-        output_directory="output_files",
-        output_filename=f"TestResultRF{i}.txt"
+        output_directory="output_files/rf_predictions",
+        output_filename=f"DeninaChungBangResult{i}.txt"
     )
