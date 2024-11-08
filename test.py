@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 from sklearn.impute import KNNImputer
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score
 
 # Function to load the dataset from .txt files
 def load_data(train_data_file, train_label_file, test_data_file):
