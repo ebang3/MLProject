@@ -56,11 +56,6 @@ def handle_classification_task(train_data_file, train_label_file, test_data_file
     
     # Step 5: Save the predictions
     save_predictions(predictions, output_directory, output_filename)
-    
-    # Step 6: Calculate accuracy if true test labels are provided
-    if test_labels is not None:
-        accuracy = accuracy_score(test_labels, predictions)
-        print(f"Accuracy for {output_filename}: {accuracy:.4f}")
 
 # Example usage for Dataset 1
 handle_classification_task(
