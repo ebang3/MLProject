@@ -64,7 +64,7 @@ def handle_classification_task(train_data_file, train_label_file, test_data_file
     # Step 5: Save the predictions in the specified directory
     save_predictions(predictions, output_directory, output_filename)
 
-# Example usage for Dataset 1
+# Dataset 1
 handle_classification_task(
     train_data_file="training_data\TrainData1.txt",
     train_label_file="training_data\TrainLabel1.txt",
@@ -73,6 +73,7 @@ handle_classification_task(
     output_filename="TestResult1.txt"
 )
 
+# Dataset 2
 handle_classification_task(
     train_data_file="training_data\TrainData2.txt",
     train_label_file="training_data\TrainLabel2.txt",
@@ -81,6 +82,7 @@ handle_classification_task(
     output_filename="TestResult2.txt"
 )
 
+# Dataset 3
 handle_classification_task(
     train_data_file="training_data\TrainData3.txt",
     train_label_file="training_data\TrainLabel3.txt",
@@ -89,6 +91,7 @@ handle_classification_task(
     output_filename="TestResult3.txt"
 )
 
+# Dataset 4
 handle_classification_task(
     train_data_file="training_data\TrainData4.txt",
     train_label_file="training_data\TrainLabel4.txt",
@@ -97,6 +100,7 @@ handle_classification_task(
     output_filename="TestResult4.txt"
 )
 
+# Dataset 5
 handle_classification_task(
     train_data_file="training_data\TrainData5.txt",
     train_label_file="training_data\TrainLabel5.txt",
@@ -105,6 +109,7 @@ handle_classification_task(
     output_filename="TestResult5.txt"
 )
 
+# Dataset 6
 handle_classification_task(
     train_data_file="training_data\TrainData6.txt",
     train_label_file="training_data\TrainLabel6.txt",
